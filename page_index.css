@@ -1,9 +1,11 @@
 * {
  font-family: Helvetica, sans-serif;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -17,6 +19,7 @@ body{
   float: right;
   margin: 0px;
 }
+
 .links .menu{
   float: left;
   position: relative;
@@ -35,16 +38,24 @@ nav .menu {
 nav .menu:hover {
   background-color: #454545;
 }
+
 .links .menu:first-child {
   border-left: 2px solid black;
 }
 
+.red-background {
+  background: red;
+  height: 50px;
+  margin: 0px;
+  border-bottom: 2px solid black;
+}
+
 nav {
+  width: 900px;
+  margin: 0 auto;
   background: red;
   color: white;
   height: 50px;
-  padding: 0px 100px;
-  border-bottom: 2px solid black;
 }
 
 .clearfix:after {
@@ -58,7 +69,6 @@ nav #logo {
   float: left;
   font-weight: bold;
 }
-
 
 nav a {
   color: white;
@@ -95,13 +105,8 @@ nav .menu:hover #alert-thing {
 
 .drop_down_menu li:hover {
   background-color: lightgray;
-/*  display: none;*/
 }
-/*
-nav ul ul {
-  display: none;
-}
-*/
+
 nav ul li:hover > ul {
   display: block;
 }
@@ -110,23 +115,19 @@ nav #logo {
   border-left: 2px solid black;
 }
 
-nav .menu a{
-/*  width: auto;*/
-  
-}
-
 .body {
-  margin: 0px 100px;
+  margin: 0 auto;
   border-left: 2px solid lightgrey;
   border-right: 2px solid lightgrey;
   border-bottom: 2px solid lightgrey;
+  width: 896px;
 }
 
 .inner_body {
   background-color: white;
 }
 
-.inner_body > *{
+.inner_body > * {
   display: inline-block;
   padding: 15px 30px;
   margin: 30px 10px;
@@ -145,7 +146,6 @@ aside {
 article {
   position: relative;
   width: 60%;
- 
 }
 
 footer {
@@ -156,6 +156,7 @@ footer {
 footer * {
   color: #717171;
 }
+
 footer ul {
   float: right;
 }
